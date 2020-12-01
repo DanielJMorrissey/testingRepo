@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClickHandler"
+    android:clickable="true"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/lineLHwVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false"
+        app:showYouTubeButton="false"
+        app:videoId="ZKoprmbKrdk" />
+
+
+    <com.josullivan.mytestapplication.PaintView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="125dp"
+        android:id="@+id/lineLPaintView"
+        android:layout_marginTop="16dp"
+
+         />
+</LinearLayout>
+
