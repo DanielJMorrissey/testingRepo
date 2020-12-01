@@ -40,8 +40,6 @@ public class PaintView extends View {
     private Bitmap mBitmap;
     public Canvas mCanvas;
     private Paint mBitmapPaint = new Paint(Paint.DITHER_FLAG);
-    /*public float xTest = 0.0f;
-    public float yTest = 0.0f;*/
 
 
 
