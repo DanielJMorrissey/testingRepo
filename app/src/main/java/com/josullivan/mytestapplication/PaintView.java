@@ -235,8 +235,6 @@ public class PaintView extends View {
                     else if (fp.blur)
                         mPaint.setMaskFilter(mBlur);
 
-                        //need to figure out how to retain shape upon loading
-
                     /*if (xTest == 0.0f && yTest == 0.0f) {
                         xTest = fp.x;
                         yTest = fp.y;
@@ -245,7 +243,6 @@ public class PaintView extends View {
 
                     FloatPoint[] testing = getPoint(fp.path, fp.x, fp.y);
 
-                        //need to figure out how to for loop testing
                     float sectionTestX = 0.0f;
                     float sectionTestY = 0.0f;
 
